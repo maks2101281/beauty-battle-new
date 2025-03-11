@@ -1,4 +1,4 @@
-import telebot
+from telebot import TeleBot
 from telebot import types, apihelper
 from telebot.handler_backends import State, StatesGroup
 from telebot.storage import StateMemoryStorage
